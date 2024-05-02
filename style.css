@@ -12,6 +12,10 @@
      --texto-fundo:#rgba(58,55,94,0,3);
  }
 
+span{
+color: var(--verde);
+ }
+
 .conteudo-principal{
     display: flex;
     flex-direction: column;
@@ -28,6 +32,10 @@ width: 100%;
 font-size: 32px;
 
 }
+.botoes{
+display: block;
+}
+
 .botao{
     background-color: var(--botao-inativo);
     color: white;
@@ -37,5 +45,15 @@ font-size: 32px;
     width: 100%;
     font-size: 18px;
     padding: 1em;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+}
+.botao:first-child{
+border-radius: 20px 20px 0 0;
 
+
+}
+.botao:last-child{
+    border-radius: 0 0 20px 20px;
 }
