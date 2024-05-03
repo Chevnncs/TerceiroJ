@@ -50,10 +50,23 @@ display: block;
     border-right: 2px solid var(--botao-ativo);
 }
 .botao:first-child{
-border-radius: 20px 20px 0 0;
+border-radius: 20px 0 0 20px;
 
 
 }
 .botao:last-child{
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+@media screen and (min-width:700px) {
+    .botoes{
+        display: flex;
+    }
+    .botao:first-child{
+    border-radius:20px 0 0 20px;
+
+}
+    .botao:last-child{
+        border-radius: 0 20px 20px 0;
+    }
 }
