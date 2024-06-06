@@ -51,11 +51,19 @@ display: block;
 }
 .botao:first-child{
 border-radius: 20px 0 0 20px;
-
-
+}
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom:2px solid var(--verde) ;  
 }
 .botao:last-child{
     border-radius: 0 20px 20px 0;
+}
+.abas-conteudo{
+    display: none;
+}
+.abas-conteudo.ativo{
+    display: block;
 }
 
 @media screen and (min-width:700px) {
@@ -70,6 +78,4 @@ border-radius: 20px 0 0 20px;
         border-radius: 0 20px 20px 0;
     }
 }
-.ativo{
-    background-color: var(--botao-ativo);
-}
+
