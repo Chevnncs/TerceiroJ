@@ -60,11 +60,11 @@ border-radius: 20px 0 0 20px;
 .botao:last-child{
     border-radius: 0 20px 20px 0;
 }
-.abas-conteudo{
+.aba-conteudo{
     display: none;
 }
 
-.abas-conteudo.ativo{
+.aba-conteudo.ativo{
     display: block;
 }
 .abas-texto{
