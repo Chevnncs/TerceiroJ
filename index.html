@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus objetivos do ano</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <section class="conteudo-principal">
-        <h2 class="titulo-principal"> Meus objetivos do ano <span>_</span> </h2>
+        <h2 class="titulo-principal">   Meus objetivos do ano <span>_</span>     </h2>
         <div class="conteudo">
             <div class="botoes">
                 <button class="botao">Criar cursos</button>
@@ -24,7 +22,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">TEMPO ATÉ CONCLUIR O OBJETIVO</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="dias0">
                                 15
                             </div>
                             <div class="contador-digito-texto">
@@ -32,7 +30,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="horas0">
                                 10
                             </div>
                             <div class="contador-digito-texto">
@@ -40,7 +38,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="minutos0">
                                 20
                             </div>
                             <div class="contador-digito-texto">
@@ -48,7 +46,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="segundos0">
                                 30
                             </div>
                             <div class="contador-digito-texto">
@@ -56,13 +54,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
                 <div class="aba-conteudo">
                     <h3 class="aba-conteudo-titulo-principal">Criar 3 projetos utilizando JavaScript</h3>
                     <h4 class="aba-conteudo-titulo-secundario">TEMPO ATÉ CONCLUIR O OBJETIVO</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="dias1">
                                 15
                             </div>
                             <div class="contador-digito-texto">
@@ -70,7 +68,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="horas1">
                                 10
                             </div>
                             <div class="contador-digito-texto">
@@ -78,7 +76,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="minutos1">
                                 20
                             </div>
                             <div class="contador-digito-texto">
@@ -86,7 +84,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="segundos1">
                                 30
                             </div>
                             <div class="contador-digito-texto">
@@ -100,7 +98,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">TEMPO ATÉ CONCLUIR O OBJETIVO</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="dias2">
                                 15
                             </div>
                             <div class="contador-digito-texto">
@@ -108,7 +106,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="horas2">
                                 10
                             </div>
                             <div class="contador-digito-texto">
@@ -116,7 +114,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="minutos2">
                                 20
                             </div>
                             <div class="contador-digito-texto">
@@ -124,7 +122,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="segundos2">
                                 30
                             </div>
                             <div class="contador-digito-texto">
@@ -138,7 +136,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">TEMPO ATÉ CONCLUIR O OBJETIVO</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="dias3">
                                 15
                             </div>
                             <div class="contador-digito-texto">
@@ -146,7 +144,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="horas3">
                                 10
                             </div>
                             <div class="contador-digito-texto">
@@ -154,7 +152,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="minutos3">
                                 20
                             </div>
                             <div class="contador-digito-texto">
@@ -162,7 +160,7 @@
                             </div>
                         </div>
                         <div class="contador-digito">
-                            <div class="contador-digito-numero">
+                            <div class="contador-digito-numero" id="segundos3">
                                 30
                             </div>
                             <div class="contador-digito-texto">
@@ -171,11 +169,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
     <script src="main.js"></script>
 </body>
-
 </html>
